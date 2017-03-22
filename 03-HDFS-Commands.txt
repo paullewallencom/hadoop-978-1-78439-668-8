@@ -1,0 +1,17 @@
+HDFS Commands
+
+The syntax of Hadoop fs shell command is as follows:
+
+hadoop fs <args>
+
+Create a directory in HDFS at the given path(s):
+
+Usage:
+hadoop fs -mkdir
+<paths>
+
+Example:
+hadoop fs -mkdir
+/user/shiva/dir1
+/user/shiva/dir2
+
